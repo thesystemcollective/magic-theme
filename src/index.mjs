@@ -1,3 +1,6 @@
+export * as Footer from './Footer.mjs'
+export * as Slogan from './Slogan.mjs'
+
 export const vars = {
   text: {
     dark: '#f0f0f0',
@@ -48,7 +51,7 @@ export default (v = {}) => {
 
         '&:hover': {
           color: v.link.hover.light,
-        }
+        },
       },
 
       '&:hover': {
