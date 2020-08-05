@@ -41,7 +41,6 @@ export default (v = {}) => {
     },
 
     a: {
-      textDecoration: 'none',
       color: v.link.dark,
 
       '.light &&': {
