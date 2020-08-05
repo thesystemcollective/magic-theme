@@ -1,0 +1,56 @@
+{
+  "name": "@thesystem-at/magic-theme",
+  "version": "0.0.1",
+  "author": "THESYSTEM",
+  "homepage": "https://thesystem-at.github.io/magic-theme",
+  "license": "AGPL-3.0",
+  "description": "this is the base theme for thesystem.at pages",
+  "main": "src/index.mjs",
+  "module": "src/index.mjs",
+  "type": "module",
+  "engines": {
+    "node": ">=14.2.0"
+  },
+  "scripts": {
+    "start": "t -p",
+    "format": "f -w --exclude docs",
+    "test": "t --exclude docs example config.js",
+    "build": "NODE_ENV=production magic build",
+    "prod": "NODE_ENV=production magic build serve --watch src",
+    "dev": "magic dev --watch src",
+    "calls": "calls"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thesystem-at/magic-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thesystem-at/magic-theme/issues"
+  },
+  "devDependencies": {
+    "@magic-modules/light-switch": "0.0.9",
+    "@magic-modules/no-spy": "0.0.5",
+    "@magic-modules/pre": "0.0.9",
+    "@magic/core": "0.0.87",
+    "@magic/format": "0.0.13",
+    "@magic/test": "0.1.52"
+  },
+  "keywords": [
+    "magic",
+    "magic-themes",
+    "THESYSTEM"
+  ],
+  "contributors": [
+    {
+      "name": "jascha ehrenreich",
+      "github": "jaeh"
+    },
+    {
+      "name": "daniela weiss",
+      "github": "mslitto"
+    }
+  ]
+}
