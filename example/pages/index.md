@@ -25,3 +25,15 @@ module.exports = {
 ```
 
 @magic will then import and use the theme automagically.
+
+#### modules
+
+```javascript
+Slogan({ subTitle: 'subTitle' })
+```
+
+<Slogan subTitle="subTitle"></Slogan>
+
+##### footer
+
+this theme also exports a custom footer.
