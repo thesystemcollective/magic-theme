@@ -31,7 +31,6 @@
     "url": "https://github.com/thesystem-at/magic-theme/issues"
   },
   "devDependencies": {
-    "@magic-modules/light-switch": "0.0.9",
     "@magic-modules/no-spy": "0.0.5",
     "@magic-modules/pre": "0.0.9",
     "@magic/core": "0.0.87",
