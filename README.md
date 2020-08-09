@@ -15,7 +15,7 @@ npm install --save --save-exact @thesystem-at/magic-theme
 ```javascript
 // config.mjs:
 
-module.exports = {
+export default {
   //... other config
   THEME: '@thesystem-at/magic-theme',
 
