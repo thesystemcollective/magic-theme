@@ -55,7 +55,9 @@ export const style = vars => ({
   },
 
   img: {
+    height: 'auto',
     margin: '0 2em 0 0',
+    maxWidth: '90vw',
   },
 
   '.koer': {
