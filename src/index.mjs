@@ -89,7 +89,6 @@ export default (v = {}) => {
       section: {
         clear: 'both',
         margin: '0 3vw 3em 0',
-        width: '33vw',
       },
 
       '.description, .location': {
