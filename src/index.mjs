@@ -137,7 +137,6 @@ export default (v = {}) => {
           marginBottom: '2em',
         },
         '.description': {
-          width: '33vw',
           marginTop: 0,
         },
       },
