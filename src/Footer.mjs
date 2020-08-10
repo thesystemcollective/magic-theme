@@ -14,7 +14,7 @@ export const View = (_, children) =>
         class: 'koer',
         alt: 'wien kultur',
         src: 'https://thesystem.at/social/wien-kultur.jpg',
-        width: '349',
+        width: '242',
         height: '100',
       }),
     ]),
