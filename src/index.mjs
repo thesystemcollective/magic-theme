@@ -155,7 +155,7 @@ export default (v = {}) => {
     [`@media screen and (min-width: ${vars.widths.laptop})`]: {
       '.sections': {
         float: 'right',
-        width: '40vw',
+        width: '47vw',
 
         section: {
           clear: 'none',
@@ -165,8 +165,6 @@ export default (v = {}) => {
 
     [`@media screen and (min-width: ${vars.widths.desktop})`]: {
       '.sections': {
-        width: '40vw',
-
         section: {
           margin: '0 2em 0 0',
           width: 'auto',
