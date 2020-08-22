@@ -157,7 +157,6 @@ export default (v = {}) => {
         width: '40vw',
 
         section: {
-          width: '23vw',
           clear: 'none',
         },
       },
