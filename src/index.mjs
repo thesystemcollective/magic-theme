@@ -78,6 +78,10 @@ export default (v = {}) => {
       maxWidth: 'inherit',
     },
 
+    '.month-title': {
+      margin: '2em 1em 1em',
+    },
+
     '.sections': {
       display: 'inline-block',
       margin: '0 0 0 1em',
