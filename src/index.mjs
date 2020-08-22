@@ -84,7 +84,8 @@ export default (v = {}) => {
     },
 
     '.month-title': {
-      margin: '2em 1em 1em',
+      margin: '2em 0',
+      fontWeight: '700',
     },
 
     '.sections': {
