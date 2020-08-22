@@ -78,6 +78,11 @@ export default (v = {}) => {
       maxWidth: 'inherit',
     },
 
+    '.PageHeader': {
+      display: 'inline-block',
+      width: '100%',
+    },
+
     '.month-title': {
       margin: '2em 1em 1em',
     },
