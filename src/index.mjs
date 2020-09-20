@@ -106,6 +106,20 @@ export default (v = {}) => {
       },
     },
 
+    '.subcredits': {
+      width: '80%',
+      maxWidth: '500px',
+
+      img: {
+        '&:first-child': {
+          width: '66%',
+        },
+        '&:last-child': {
+          width: '33%',
+        },
+      },
+    },
+
     '.NoSpy': {
       left: 'auto',
       right: '0.5em',
