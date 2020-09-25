@@ -111,11 +111,12 @@ export default (v = {}) => {
       maxWidth: '500px',
 
       img: {
+        height: '100px',
         '&:first-child': {
-          width: '66%',
+          maxWidth: '66%',
         },
         '&:last-child': {
-          width: '33%',
+          maxWidth: '33%',
         },
       },
     },
