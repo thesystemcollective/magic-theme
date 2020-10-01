@@ -40,7 +40,7 @@ export default (v = {}) => {
       fontSize: '18px',
       fontFamily: 'sans-serif',
       overflowX: 'initial',
-      lineHeight: 1.2,
+      lineHeight: 1.4,
     },
 
     a: {
@@ -84,7 +84,7 @@ export default (v = {}) => {
     },
 
     '.month-title': {
-      margin: '2em 0',
+      margin: '2em 5vw',
       fontWeight: '700',
     },
 
@@ -98,11 +98,11 @@ export default (v = {}) => {
 
       section: {
         clear: 'both',
-        margin: '0 3vw 3em 0',
+        margin: '0 3vw 1em 0',
       },
 
       '.description, .location': {
-        fontSize: '0.8em',
+        fontSize: '0.9em',
       },
     },
 
@@ -146,7 +146,12 @@ export default (v = {}) => {
     },
 
     '.manifest': {
-      margin: '5em 1em 0',
+      margin: '0 1em 3em',
+
+      p: {
+        lineHeight: 1.4,
+        margin: '0.5em 0',
+      },
     },
 
     [`@media screen and (min-width: ${v.widths.tablet})`]: {
@@ -159,7 +164,7 @@ export default (v = {}) => {
           margin: '0 4vw 0 0',
         },
         '.presents, .location': {
-          marginBottom: '2em',
+          marginBottom: '2em'
         },
         '.description': {
           marginTop: 0,
@@ -167,7 +172,7 @@ export default (v = {}) => {
       },
     },
 
-    [`@media screen and (min-width: ${vars.widths.laptop})`]: {
+    [`@media screen and (min-width: ${v.widths.laptop})`]: {
       '.sections': {
         float: 'right',
         width: '47vw',
@@ -176,9 +181,14 @@ export default (v = {}) => {
           clear: 'none',
         },
       },
+
+      '.manifest': {
+        width: '70vw',
+        margin: '0 auto 6em',
+      },
     },
 
-    [`@media screen and (min-width: ${vars.widths.desktop})`]: {
+    [`@media screen and (min-width: ${v.widths.desktop})`]: {
       '.sections': {
         section: {
           margin: '0 2em 0 0',
