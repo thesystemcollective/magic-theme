@@ -1,8 +1,8 @@
 {
-  "name": "@thesystem-at/magic-theme",
+  "name": "@thesystemcollective/magic-theme",
   "version": "0.0.1",
   "author": "THESYSTEM",
-  "homepage": "https://thesystem-at.github.io/magic-theme",
+  "homepage": "https://thesystemcollective.github.io/magic-theme",
   "license": "AGPL-3.0",
   "description": "this is the base theme for thesystem.at pages",
   "main": "src/index.mjs",
@@ -25,10 +25,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thesystem-at/magic-theme.git"
+    "url": "git+https://github.com/thesystemcollective/magic-theme.git"
   },
   "bugs": {
-    "url": "https://github.com/thesystem-at/magic-theme/issues"
+    "url": "https://github.com/thesystemcollective/magic-theme/issues"
   },
   "devDependencies": {
     "@magic-modules/no-spy": "0.0.5",
