@@ -6,14 +6,14 @@ export const View = (_, children) =>
       Img({
         class: 'koer',
         alt: 'kör',
-        src: 'https://thesystem.at/social/koer.jpg',
+        src: 'https://static.thesystem.at/support/koer.svg',
         width: '255',
         height: '100',
       }),
       Img({
         class: 'koer',
         alt: 'wien kultur',
-        src: 'https://thesystem.at/social/wien-kultur.jpg',
+        src: 'https://static.thesystem.at/support/wien-kultur.svg',
         width: '242',
         height: '100',
       }),
@@ -25,7 +25,7 @@ export const View = (_, children) =>
       { to: 'https://usus.wien' },
       Img({
         title: 'yppshop provided by usus.wien',
-        src: 'https://thesystem.at/social/usus.png',
+        src: 'https://thesystem.at/yppenplatz5/social/usus.png',
         width: '80',
         height: '35',
       }),
@@ -35,7 +35,7 @@ export const View = (_, children) =>
       { to: 'https://magic.github.io' },
       Img({
         title: 'made with a few bits of magic',
-        src: 'https://thesystem.at/social/magic.png',
+        src: 'https://thesystem.at/yppenplatz5/social/magic.png',
         width: '40',
         height: '35',
       }),
