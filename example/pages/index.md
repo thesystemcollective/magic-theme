@@ -33,7 +33,3 @@ Slogan({ subTitle: 'subTitle' })
 ```
 
 <Slogan subTitle="subTitle"></Slogan>
-
-##### footer
-
-this theme also exports a custom footer.

@@ -1,1 +1,1 @@
-export { default, vars, Footer, Slogan } from '../../../../src/index.mjs'
+export { default, vars, Slogan } from '../../../../src/index.mjs'
