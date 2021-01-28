@@ -44,9 +44,9 @@ export const View = state =>
       ]),
 
       div({ class: 'Social' }, [
-        a(
+        Link(
           {
-            href: social.instagram,
+            to: 'https://www.instagram.com/theartificialmuseum/',          
             nofollow: true,
             noreferrer: true,
             noopener: true,
@@ -69,7 +69,7 @@ export const View = state =>
         ),
         Link(
           {
-            to: social.youtube,
+            to: 'https://www.youtube.com/channel/UCBwKwgk_eU8w-ccmTOFXADQ',
             nofollow: true,
             noeferrer: true,
             noopener: true,
@@ -98,11 +98,13 @@ export const style = v => ({
   padding: `5em 0 .5em ${v.paddingLeft}`,
   position: 'relative',
 
-  a: {
-    color: v.link.dark,
+  '#Magic &&': {
+    'a': {
+      color: v.link.dark,
 
-    '&:hover': {
-      color: v.link.hover.dark,
+      '&:hover': {
+        color: v.link.hover.dark,
+      },
     },
   },
 
@@ -113,6 +115,15 @@ export const style = v => ({
   '.Credits': {
     textAlign: 'center',
   },
+
+  'svg.logo': {
+    float: 'right',
+    height: '100px',
+    position: 'absolute',
+    right: '48px',
+    width: '100px',
+  },
+
 
   '.Social': {
     margin: '2em 0',
