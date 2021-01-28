@@ -14,6 +14,8 @@ export const vars = {
 
   neutral: '#0f0f0f',
 
+  paddingLeft: '25px',
+
   link: {
     dark: '#f0f0f0',
     light: '#0f0f0f',
@@ -156,7 +158,7 @@ export default (v = {}) => {
 
     [`@media screen and (min-width: ${v.widths.tablet})`]: {
       body: {
-        fontSize: '25px',
+        fontSize: '22px',
       },
 
       '.sections': {
