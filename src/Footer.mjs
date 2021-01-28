@@ -46,7 +46,7 @@ export const View = state =>
       div({ class: 'Social' }, [
         Link(
           {
-            to: 'https://www.instagram.com/theartificialmuseum/',          
+            to: 'https://www.instagram.com/theartificialmuseum/',
             nofollow: true,
             noreferrer: true,
             noopener: true,
@@ -99,7 +99,7 @@ export const style = v => ({
   position: 'relative',
 
   '#Magic &&': {
-    'a': {
+    a: {
       color: v.link.dark,
 
       '&:hover': {
@@ -123,7 +123,6 @@ export const style = v => ({
     right: '48px',
     width: '100px',
   },
-
 
   '.Social': {
     margin: '2em 0',
