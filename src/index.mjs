@@ -164,7 +164,7 @@ export default (v = {}) => {
           margin: '0 4vw 0 0',
         },
         '.presents, .location': {
-          marginBottom: '2em'
+          marginBottom: '2em',
         },
         '.description': {
           marginTop: 0,
