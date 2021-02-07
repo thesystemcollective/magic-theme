@@ -1,7 +1,7 @@
 export const View = state =>
   footer({ id: 'contact', class: 'Footer' }, [
     div({ class: 'Container' }, [
-      svg({ class: 'logo', viewBox: '0 0 54 60' }, [
+      svg({ class: 'logo', viewBox: '0 0 54 60', width: '60', height: '54' }, [
         path({ d: 'M36 0v10h9v40h-9v10h18V0zM0 0v60h18V50H9V10h9V0z', fill: '#ffffff' }),
       ]),
 
