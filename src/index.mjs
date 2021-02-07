@@ -38,9 +38,16 @@ export default (v = {}) => {
   v = { ...vars, ...v }
 
   return {
+    '@font-face': {
+      family: 'notosans',
+      url: 'https://static.artificialmuseum.com/font/',
+      styles: ['normal', 'italic'],
+      weights: [400, 500],
+    },
+
     body: {
       fontSize: '18px',
-      fontFamily: 'sans-serif',
+      fontFamily: 'notosans, sans-serif',
       overflowX: 'initial',
       lineHeight: 1.4,
     },
@@ -59,6 +66,10 @@ export default (v = {}) => {
       '&:hover': {
         color: v.link.hover.dark,
       },
+    },
+
+    'h2, h3': {
+      fontWeight: 'bold',
     },
 
     '#Magic': {
@@ -147,7 +158,7 @@ export default (v = {}) => {
       },
     },
 
-    '.manifest': {
+    '.content': {
       margin: '0 1em 3em',
 
       p: {
@@ -184,7 +195,7 @@ export default (v = {}) => {
         },
       },
 
-      '.manifest': {
+      '.content': {
         width: '70vw',
         margin: '0 auto 6em',
       },
