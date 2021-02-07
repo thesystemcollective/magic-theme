@@ -69,7 +69,7 @@ export default (v = {}) => {
     },
 
     'h2, h3': {
-      fontWeight: 'bold',
+      fontWeight: 500,
     },
 
     '#Magic': {
