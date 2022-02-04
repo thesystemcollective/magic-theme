@@ -9,14 +9,15 @@ export const View = state =>
         h2('Impressum'),
 
         h3('Address:'),
-        p('TheSystemCollective, z.H. Daniela Weiss'),
-        p('Yppenplatz 5'),
+        p('SystemKollektiv, z.H. Daniela Weiss'),
+        p('Jörgerstrasse 56-58 Stiege 3, Top 15'),
         p('1170 Wien'),
         p('Austria'),
       ]),
 
       h3('Represented by:'),
       p('Litto / Daniela Weiss'),
+      p('Jascha Ehrenreich'),
 
       h3('Email:'),
       Link({
