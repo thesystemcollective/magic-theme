@@ -1,5 +1,5 @@
 export const View = ({ subTitle }) =>
-  h1({ class: 'Slogan' }, [p(['THE', br(), 'SYSTEM']), p(subTitle)])
+  h1({ class: 'Slogan' }, [p(['SYSTEM']), p(subTitle)])
 
 export const style = vars => ({
   fontWeight: 'bold',
