@@ -11,7 +11,7 @@ npm install --save --save-exact @thesystem-at/magic-theme
 
 #### usage:
 
-##### declare usage:
+##### declare:
 ```javascript
 // config.mjs:
 
