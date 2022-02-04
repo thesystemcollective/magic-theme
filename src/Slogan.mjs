@@ -1,5 +1,4 @@
-export const View = ({ subTitle }) =>
-  h1({ class: 'Slogan' }, [p(['SYSTEM']), p(subTitle)])
+export const View = ({ subTitle }) => h1({ class: 'Slogan' }, [p(['SYSTEM']), p(subTitle)])
 
 export const style = vars => ({
   fontWeight: 'bold',
