@@ -41,8 +41,16 @@ export default (v = {}) => {
     '@font-face': {
       family: 'notosans',
       url: 'https://static.artificialmuseum.com/font/',
-      styles: ['normal', 'italic'],
-      weights: [400, 500],
+
+      styles: {
+        normal: {
+          400: ['Noto Sans', 'NotoSans'],
+          700: ['Noto Sans Black', 'NotoSans-Black'],
+        },
+        italic: {
+          400: ['Noto Sans Italic', 'NotoSans-Italic'],
+        },
+      },
     },
 
     body: {
